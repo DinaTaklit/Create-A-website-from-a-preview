@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #888;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header Section */
+.hero header{
+    height: 90vh;
+}
+/* /Header Section */
+
+/* Navbar Section */
+.hero .navbar {
+    background-color: #252f31;
+    color: #fff;
+    height: 10vh;
+}
+
+.navbar h2 {
+    text-transform: uppercase;
+}
+
+.navbar h2 span {
+    color: #2ecc71;
+}
+
+.navbar .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .container ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar .container ul li {
+    padding-left: 10px;
+}
+
+/* /Navbar Section */
