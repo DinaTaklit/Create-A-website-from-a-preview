@@ -77,3 +77,10 @@
     display: flex;
 }
 /** /About Me **/
+
+
+/** skills **/
+.skills .row {
+    display: flex;
+}
+/** /skills **/
