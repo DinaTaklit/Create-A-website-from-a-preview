@@ -6,9 +6,7 @@
     margin: 0;
 }
 
-body {
-    background-color: #888;
-}
+
 .container {
     width: 80%;
     margin: auto;
@@ -64,3 +62,18 @@ body {
 }
 
 /** /Features **/
+
+/** About Me**/
+.about{
+    background-color: #f2f2f2;
+}
+.about .about-image img{
+    width: 100%;
+}
+.about .row {
+    display: flex;
+}
+.about .about-grid{
+    display: flex;
+}
+/** /About Me **/
