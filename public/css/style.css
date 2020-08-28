@@ -53,3 +53,14 @@ body {
 }
 
 /* /Navbar Section */
+
+/** Features **/
+.features .row{
+    display: flex;
+}
+
+.features h2{
+    text-transform: uppercase;
+}
+
+/** /Features **/
