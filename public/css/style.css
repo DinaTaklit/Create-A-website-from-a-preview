@@ -85,8 +85,29 @@
 }
 /** /skills **/
 
+
 /** Resume **/
 .resume{
     text-align: center;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 /** /Resume **/
+
+/** EduExp **/
+.edu-exp{
+ padding-top: 30px;
+ padding-bottom: 30px;   
+}
+/** /EduExp **/
+
+
+/** Testimonials **/
+.testemonials{
+    text-align: center;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/** /Testimonials **/
