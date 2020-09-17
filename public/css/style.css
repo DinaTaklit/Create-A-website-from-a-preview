@@ -120,3 +120,16 @@
 }
 
 /* /Portfolio */
+
+/** Contact ****/
+.contact {
+    background-color: #252f31;
+}
+.contact h2{
+    color: #fff;
+}
+.contact p {
+    color: #6a6e71;
+}
+
+/** /Contact ***/
