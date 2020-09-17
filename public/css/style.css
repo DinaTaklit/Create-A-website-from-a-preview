@@ -133,3 +133,12 @@
 }
 
 /** /Contact ***/
+
+/** /Footer ***/
+.footer{
+    background-color: #191e22;
+    color: #6a6e71;
+    text-align: center;
+    padding: 20px 0;
+}
+/** /Footer ***/
