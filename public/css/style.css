@@ -1,3 +1,9 @@
+:root {
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green:  #2ecc71;
+}
+
 *,
 *::before,
 *::after {
@@ -6,16 +12,69 @@
     margin: 0;
 }
 
-
 .container {
     width: 80%;
     margin: auto;
 }
 
+button{
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
 /* Header Section */
+
 .hero header{
     height: 90vh;
+    background: var(--color-darkblue);
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(34, 34, 34, 0.8)
+    ),
+    url("../assets/img/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+
+.hero header .container {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero header .intro{
+    text-align: center;
+}
+
+.hero header .intro h2{
+    font-size: 3.5rem;
+    padding: 1rem 2rem;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.hero header .intro button{
+    margin-top: 1.2rem;
+    padding: .6rem 1.5rem;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+
 /* /Header Section */
 
 /* Navbar Section */
@@ -30,7 +89,7 @@
 }
 
 .navbar h2 span {
-    color: #2ecc71;
+    color: var(--color-green);
 }
 
 .navbar .container {
@@ -43,13 +102,19 @@
 .navbar .container ul {
     display: flex;
     align-items: center;
-    list-style: none;
 }
 
 .navbar .container ul li {
-    padding-left: 10px;
+    padding-left: 1.3rem;
 }
 
+.navbar ul li a{
+    color: white;
+}
+.navbar ul li a:hover,
+.navbar ul li.active a{
+    color: var(--color-green);
+}
 /* /Navbar Section */
 
 /** Features **/
